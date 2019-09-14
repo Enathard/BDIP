@@ -1,0 +1,13 @@
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\bin\Debug\ProccesingImageWFA.exe.config
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\bin\Debug\ProccesingImageWFA.exe
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\bin\Debug\ProccesingImageWFA.pdb
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.csprojAssemblyReference.cache
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.Form1.resources
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.Properties.Resources.resources
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.csproj.GenerateResource.cache
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.csproj.CoreCompileInputs.cache
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.exe
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.pdb
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\bin\Debug\ProccesingImageCL.dll
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\bin\Debug\ProccesingImageCL.pdb
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageWFA\obj\Debug\ProccesingImageWFA.csproj.CopyComplete

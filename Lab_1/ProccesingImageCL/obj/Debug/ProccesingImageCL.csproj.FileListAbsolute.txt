@@ -1,0 +1,6 @@
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageCL\bin\Debug\ProccesingImageCL.dll
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageCL\bin\Debug\ProccesingImageCL.pdb
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageCL\obj\Debug\ProccesingImageCL.csprojAssemblyReference.cache
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageCL\obj\Debug\ProccesingImageCL.csproj.CoreCompileInputs.cache
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageCL\obj\Debug\ProccesingImageCL.dll
+D:\Other\GSTU\semester_5\BDIP\Lab_1\ProccesingImageCL\obj\Debug\ProccesingImageCL.pdb
