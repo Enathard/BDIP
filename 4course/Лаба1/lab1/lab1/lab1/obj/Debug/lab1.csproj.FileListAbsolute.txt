@@ -1,0 +1,64 @@
+D:\ОЦОИ\lab1\lab1\bin\Debug\lab1.exe.config
+D:\ОЦОИ\lab1\lab1\bin\Debug\lab1.exe
+D:\ОЦОИ\lab1\lab1\bin\Debug\lab1.pdb
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.exe
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.pdb
+D:\ОЦОИ\lab1\lab1\obj\Debug\lab1.Form2.resources
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.exe
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.pdb
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\bin\Debug\lab1.exe
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\bin\Debug\lab1.pdb
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.Form1.resources
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.Form2.resources
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+I:\3 курс\spring\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\bin\Debug\lab1.exe
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\bin\Debug\lab1.pdb
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.Form1.resources
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.Form2.resources
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.exe
+d:\Учёба\весенний семестр\ОЦОИ\lab1\lab1\lab1\obj\Debug\lab1.pdb
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.pdb
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form2.resources
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.exe
+D:\фаис\ИТ-31\Оцои\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.pdb
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.pdb
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form1.resources
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form2.resources
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.exe
+e:\4 к кин\ОЦОИ\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.pdb
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.pdb
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form2.resources
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.exe
+D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.pdb
