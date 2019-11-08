@@ -14,7 +14,7 @@ namespace lab1
             Bitmap barChart = null;
             if (image != null)
             {
-                int width = 400, height = 256;
+                int width = 256, height = 256; // width = 400, для увеличения масштаба
                 Bitmap bmp = new Bitmap(image);
                 barChart = new Bitmap(width, height);
                 int[] B = new int[256];
@@ -37,8 +37,7 @@ namespace lab1
                 double point = (double)max / height;
                 for (i = 0; i < width - 3; ++i)
                 {
-
-                    for (j = height - 1; j > height - B[i / 3] / point; --j)
+                    for (j = height - 1; j > height - B[i] / point; --j) // height - B[i / 3] / point
                     {
                         barChart.SetPixel(i, j, Color.Blue);
                     }

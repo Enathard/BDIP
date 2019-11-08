@@ -58,6 +58,7 @@ namespace ProccesingImageWFA
                     newPictureBox.Image = newImg;
                     newPictureBox.Refresh();
                     originalPictureBox.Refresh();
+                    RefrechBarGraph();
                 }
                 catch
                 {
@@ -86,6 +87,7 @@ namespace ProccesingImageWFA
                         {
                             newPictureBox.Refresh();
                             originalPictureBox.Refresh();
+                            RefrechBarGraph();
                         }));
                     });
                 }
@@ -115,6 +117,7 @@ namespace ProccesingImageWFA
                     {
                         newPictureBox.Refresh();
                         originalPictureBox.Refresh();
+                        RefrechBarGraph();
                     }));
                 });
             }
@@ -137,6 +140,7 @@ namespace ProccesingImageWFA
                     {
                         newPictureBox.Refresh();
                         originalPictureBox.Refresh();
+                        RefrechBarGraph();
                     }));
                 });
             }
@@ -163,6 +167,7 @@ namespace ProccesingImageWFA
                         {
                             newPictureBox.Refresh();
                             originalPictureBox.Refresh();
+                            RefrechBarGraph();
                         }));
                     });
                 }
@@ -171,6 +176,55 @@ namespace ProccesingImageWFA
                     MessageBox.Show("Введено некорректное значение.");
                 }
 
+            }
+            else
+            {
+                MessageBox.Show("Изображение не загружено.");
+            }
+        }
+
+        private void ThresholdButton_Click(object sender, EventArgs e)
+        {
+            if (bitmapImg != null)
+            {
+                try
+                {
+                    Bitmap newImg;
+                    Task.Run(() =>
+                    {
+                        Invoke((Action)(() =>
+                        {
+                            newImg = ProccesingImage.ThresholdProcessing(new Bitmap(bitmapImg), redTrackBar.Value,
+                                                                                            greenTrackBar.Value,
+                                                                                            blueTrackBar.Value);
+                            newPictureBox.Image = newImg;
+                            newPictureBox.Refresh();
+                            originalPictureBox.Refresh();
+                            RefrechBarGraph();
+                        }));
+                    });
+                }
+                catch
+                {
+                    MessageBox.Show("Введено некорректное значение.");
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Изображение не загружено.");
+            }
+        }
+
+        private void RefrechBarGraph()
+        {
+            if (bitmapImg != null)
+            {
+                Bitmap newImg;
+                newImg = ProccesingImage.CreateBarGraph(new Bitmap((Bitmap)newPictureBox.Image));
+                barGraphPictureBox.Image = newImg;
+                newPictureBox.Refresh();
+                originalPictureBox.Refresh();
             }
             else
             {

@@ -15,7 +15,7 @@ namespace lab1
 {
     public partial class Form1 : Form
     {
-        private string way = @"D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\2.jpeg";
+        private string way = @"../../2.jpeg";
 
         public Form1()
         {

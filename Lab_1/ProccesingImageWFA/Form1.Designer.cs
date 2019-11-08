@@ -49,9 +49,26 @@
             this.label7 = new System.Windows.Forms.Label();
             this.precentTextBox = new System.Windows.Forms.TextBox();
             this.randomReplaceButton = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.redTrackBar = new System.Windows.Forms.TrackBar();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.greenTrackBar = new System.Windows.Forms.TrackBar();
+            this.label11 = new System.Windows.Forms.Label();
+            this.blueTrackBar = new System.Windows.Forms.TrackBar();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.thresholdButton = new System.Windows.Forms.Button();
+            this.barGraphPictureBox = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.originalPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.newPictureBox)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.redTrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenTrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blueTrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barGraphPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -60,7 +77,7 @@
             this.файлToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(711, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1065, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -263,16 +280,142 @@
             this.randomReplaceButton.UseVisualStyleBackColor = true;
             this.randomReplaceButton.Click += new System.EventHandler(this.RandomReplaceButton_Click);
             // 
+            // panel1
+            // 
+            this.panel1.AccessibleDescription = "";
+            this.panel1.AccessibleName = "";
+            this.panel1.Controls.Add(this.blueTrackBar);
+            this.panel1.Controls.Add(this.greenTrackBar);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.redTrackBar);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Location = new System.Drawing.Point(730, 360);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(315, 174);
+            this.panel1.TabIndex = 7;
+            // 
+            // redTrackBar
+            // 
+            this.redTrackBar.Location = new System.Drawing.Point(136, 15);
+            this.redTrackBar.Maximum = 255;
+            this.redTrackBar.Name = "redTrackBar";
+            this.redTrackBar.Size = new System.Drawing.Size(162, 45);
+            this.redTrackBar.TabIndex = 0;
+            this.redTrackBar.TickFrequency = 20;
+            this.redTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label9.Location = new System.Drawing.Point(22, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(88, 24);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Красный";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label10.Location = new System.Drawing.Point(22, 76);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(90, 24);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "Зелёный";
+            // 
+            // greenTrackBar
+            // 
+            this.greenTrackBar.Location = new System.Drawing.Point(136, 66);
+            this.greenTrackBar.Maximum = 255;
+            this.greenTrackBar.Name = "greenTrackBar";
+            this.greenTrackBar.Size = new System.Drawing.Size(162, 45);
+            this.greenTrackBar.TabIndex = 0;
+            this.greenTrackBar.TickFrequency = 20;
+            this.greenTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label11.Location = new System.Drawing.Point(22, 124);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(67, 24);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "Синий";
+            // 
+            // blueTrackBar
+            // 
+            this.blueTrackBar.Location = new System.Drawing.Point(136, 114);
+            this.blueTrackBar.Maximum = 255;
+            this.blueTrackBar.Name = "blueTrackBar";
+            this.blueTrackBar.Size = new System.Drawing.Size(162, 45);
+            this.blueTrackBar.TabIndex = 0;
+            this.blueTrackBar.TickFrequency = 20;
+            this.blueTrackBar.TickStyle = System.Windows.Forms.TickStyle.Both;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label12.Location = new System.Drawing.Point(752, 336);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(76, 24);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "Пороги";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label13.Location = new System.Drawing.Point(774, 551);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(206, 24);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Пороговая обработка";
+            // 
+            // thresholdButton
+            // 
+            this.thresholdButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.thresholdButton.Location = new System.Drawing.Point(819, 584);
+            this.thresholdButton.Name = "thresholdButton";
+            this.thresholdButton.Size = new System.Drawing.Size(122, 32);
+            this.thresholdButton.TabIndex = 5;
+            this.thresholdButton.Text = "Выполнить";
+            this.thresholdButton.UseVisualStyleBackColor = true;
+            this.thresholdButton.Click += new System.EventHandler(this.ThresholdButton_Click);
+            // 
+            // barGraphPictureBox
+            // 
+            this.barGraphPictureBox.Location = new System.Drawing.Point(730, 53);
+            this.barGraphPictureBox.Name = "barGraphPictureBox";
+            this.barGraphPictureBox.Size = new System.Drawing.Size(297, 274);
+            this.barGraphPictureBox.TabIndex = 1;
+            this.barGraphPictureBox.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label14.Location = new System.Drawing.Point(694, 26);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(351, 24);
+            this.label14.TabIndex = 2;
+            this.label14.Text = "Гистограмма распределения яркости";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(711, 621);
+            this.ClientSize = new System.Drawing.Size(1065, 628);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.precentTextBox);
             this.Controls.Add(this.randomReplaceButton);
             this.Controls.Add(this.fragmentButton);
             this.Controls.Add(this.contransButton);
             this.Controls.Add(this.resizeButton);
+            this.Controls.Add(this.thresholdButton);
             this.Controls.Add(this.quantButton);
             this.Controls.Add(this.resizeComboBox);
             this.Controls.Add(this.quantComboBox);
@@ -281,8 +424,12 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.barGraphPictureBox);
             this.Controls.Add(this.newPictureBox);
             this.Controls.Add(this.originalPictureBox);
             this.Controls.Add(this.menuStrip1);
@@ -293,6 +440,12 @@
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.originalPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.newPictureBox)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.redTrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenTrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.blueTrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barGraphPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,6 +474,18 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox precentTextBox;
         private System.Windows.Forms.Button randomReplaceButton;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TrackBar blueTrackBar;
+        private System.Windows.Forms.TrackBar greenTrackBar;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TrackBar redTrackBar;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button thresholdButton;
+        private System.Windows.Forms.PictureBox barGraphPictureBox;
+        private System.Windows.Forms.Label label14;
     }
 }
 

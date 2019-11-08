@@ -12,6 +12,28 @@ namespace ProccesingImageCL
 {
     public class ProccesingImage
     {
+        public static Bitmap ThresholdProcessing(Bitmap bitmap, int rRed, int rGreen, int rBlue)
+        {
+            BufferedImage img = new BufferedImage(bitmap);
+            for (int i = 0; i < img.getWidth(); i++)
+            {
+                for (int j = 0; j < img.getHeight(); j++)
+                {
+                    Color color = new Color(img.getRGB(i, j));
+                    int red = color.getRed();
+                    int green = color.getGreen();
+                    int blue = color.getBlue();
+
+                    red = red <= rRed ? red : 0;
+                    green = green <= rGreen ? green : 0;
+                    blue = blue <= rBlue ? blue : 0;
+
+                    img.setRGB(i, j, new Color(red, green, blue).getRGB());
+                }
+            }
+            return img.getBitmap();
+        }
+
         public static Bitmap RandomReplacePixel(Bitmap bitmap, int percent)
         {
             BufferedImage img = new BufferedImage(bitmap);
@@ -92,6 +114,37 @@ namespace ProccesingImageCL
                 }
             }
             return newImg.getBitmap();
+        }
+
+        public static Bitmap CreateBarGraph(Bitmap image)
+        {
+            BufferedImage bufferedImage = new BufferedImage(image);
+            BufferedImage newBufferedImage = null;
+            if (bufferedImage != null)
+            {
+                int width = 256, height = 256;
+                newBufferedImage = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+                int[] redIntensity = new int[width];
+                Color color;
+                for (int i = 0; i < bufferedImage.getWidth(); i++)
+                {
+                    for (int j = 0; j < bufferedImage.getHeight(); j++)
+                    {
+                        color = new Color(bufferedImage.getRGB(i, j));
+                        ++redIntensity[color.getRed()];
+                    }
+                }
+                int max = redIntensity.Max();
+                double normalized = (double)max / height;
+                for (int i = 0; i < width; i++)
+                {
+                    for (int j = height - 1; j > height - redIntensity[i] / normalized; j--)
+                    {
+                        newBufferedImage.setRGB(i, j, Color.BLUE.getRGB());
+                    }
+                }
+            }
+            return newBufferedImage.getBitmap();
         }
 
         public static Bitmap Quantization(Bitmap bitmap, int n)

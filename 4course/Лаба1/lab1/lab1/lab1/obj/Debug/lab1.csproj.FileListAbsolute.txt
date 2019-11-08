@@ -62,3 +62,14 @@ D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateReso
 D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
 D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.exe
 D:\GSTU\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.pdb
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.exe
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\bin\Debug\lab1.pdb
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Form2.resources
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.exe
+D:\Other\GSTU\semester_5\BDIP\4course\Лаба1\lab1\lab1\lab1\obj\Debug\lab1.pdb
